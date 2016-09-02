@@ -1,0 +1,22 @@
+language: php
+
+php: 7.0
+
+branches:
+  only:
+    - master
+
+env:
+  global:
+    # go to: Gitub User => Settings => Personal Access Token => Generate New Token
+    # select "Repo" scope
+    # run in shell: travis encrypt GH_TOKEN=<code>
+    - secure: ...
+
+before_script:
+  - phpenv config-rm xdebug.ini
+  - composer self-update
+  - composer update --prefer-source
+
+script:
+  - ./bin/deploy-gh-pages.sh

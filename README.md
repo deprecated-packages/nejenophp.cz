@@ -1,7 +1,6 @@
-# Symfony.cz - Sculpin based web
+# NejenOPHP.cz - Sculpin based web
 
-[![Build Status](https://img.shields.io/travis/Symfonisti/symfony.cz.svg?style=flat-square)](https://travis-ci.org/Symfonisti/symfony.cz)
-[![Gitter chat](	https://img.shields.io/gitter/room/webuni/symfony.js.svg?style=flat-square)](https://gitter.im/webuni/symfony)
+[![Build Status](https://img.shields.io/travis/nejenophp/nejenophp.cz.svg?style=flat-square)](https://travis-ci.org/nejenophp/nejenophp.cz)
 
 
 ## How to run it?

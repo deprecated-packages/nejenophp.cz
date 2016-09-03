@@ -10,8 +10,11 @@ env:
   global:
     # go to: Gitub User => Settings => Personal Access Token => Generate New Token
     # select "Repo" scope
-    # run in shell: travis encrypt GH_TOKEN=<code>
-    - secure: ...
+    # run in shell in git root: travis encrypt GH_TOKEN=<code>
+
+    # if repo is not recognized by travis api, go to https://travis-ci.org/<repository-slug>, like githu.com/<repository-slug>
+    # and add it there; like you do when you want to run tests on some repository
+    - secure: "MwEexsHpI5fYIJkpOmhIcGs5L+nHqmpYEF4hL9P6poesJRvkU3FGkfLkX+f+Wy7KdsB5nooUVwTsM5210B81ls3+7QDdjcaMWWp8b7otLUu98v5n5umHNSobOAmr/JRT17LWDBLBfcTo59Meq8LKdNM1ujgCuSCcj208ExLStuOH81BVSDVhR59XvH1LxaqaQwkEBXVz1C7x6EO5VreBs1UJqgE98bLNxw9x4IJ30+indVQR9OyasNq8OJ6aKae1ILrzKf0Rc2+ZCVFtaIEeIDqz8ok6vpImYDidODj1KjGjDllfNFk6UaPdG1UdZDNAr/BAkxw46aSri3SN79OaaV9GXCYbZ4CDEn23KlkahfrnuVy9id9cV4pGOhy3SLRST3fnVr/Mu89zJSRi0yDT88sD8S+jNtcJ7kjRiWgjak2Vmb3CwmohIYiWtSEn35G3AofKKTalNSsNiTXINa4taZa/3YUCJWKpITCJXA3k/985pBm0FI3lEUbFkrmuAN/HRnw//Meyq47OzN5SKprN6VhjP6/XBKAjmVNFsnh3DwQs4LXsl7EgDWqHUS3C3AqkdjTshfxnFXqacuLVGDkSTdHoWSDUaM0JBKeN5pON8PvslKwtmTOxARIhW8rGeFISaOkOmoULZpCuomlptvmmAINRPe9Ke5vnyspFY2aDz1U="
 
 before_script:
   - phpenv config-rm xdebug.ini

@@ -10,59 +10,88 @@
         <meta name="keywords" content="podcast, php, programování">
         <meta name="author" content="http://nejenophp.cz">
         <meta name="robots" content="index, follow">
+
+        <link rel="alternate" type="application/atom+xml" href="/rss.xml" title="{{ site.title }} - RSS dílů
+        podcastu" />
+
         {#<meta property="og:image" content="images/...">#}
 
         {# Twitter Bootstrap #}
-        <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
         {# fonts #}
-        <link href="http://fonts.googleapis.com/css?family=Exo+2:400,300,100,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <script src="https://use.fontawesome.com/d49c7fe01d.js"></script>
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet"
+              type="text/css">
 
         {# css #}
-        <link href="{{ site.url }}/css/style.css" rel="stylesheet">
+        <link href="{{ site.url }}/assets/css/style.css" rel="stylesheet">
 
-        <link href="{{ site.url }}/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
         <link href="{{ site.url }}/favicon.ico" rel="shortcut icon">
 
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
     </head>
 
-    <body class="index">
+    <body>
         <div class="container">
             <h1 class="text-center">
-                Tomáš a Honza si povídají nejen o PHP
+                <img src="/assets/images/headline.jpg" alt="Tomáš a Honza si povídají nejen o PHP">
             </h1>
 
-            <p class="text-center">
-                30 min podcast o...
+            <p class="text-center headline">
+                <i class="fa fa-blind fa-fw" aria-hidden="true"></i>
+                Provedeme tě světem informací, abys z toho něco měl.
+                <br>
+                <strong>Jednou za měsíc</strong> &ndash; <strong>30 minut</strong>. To dáš!
             </p>
+        </div>
 
+        <hr>
+
+        <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <h3>TODO</h3>
+                <div class="col-md-6">
+                    <h3>O čem si povídáme?</h3>
 
                     <ul>
-                        <li>nasměrovat doménu</li>
-                        <li>přidat RSS</li>
-                        <li>přidat 1. díl</li>
-                        <li>očasovat a tak</li>
-                        <li>rozvážit sculpin a nějaký funkce, ať to nemusíem všehcno psát růčo...</li>
-                        <li>dát Honzovi k nadesignování</li>
+                        <li>Kam směřují komunity,</li>
+                        <li>jak se vyvíjí open source,</li>
+                        <li>kde a co se můžeš naučit,</li>
+                        <li>jak vypadá moderní hajrování</li>
+                        <li>a nesmí chybět moderní technologie a hosté z odborných oblastí.</li>
                     </ul>
-                    ...
                 </div>
-
-                <div class="col-md-12">
-                    <h3>1. díl</h3>
-                    ...
+                <div class="col-md-6">
+                    <h3>Nechceš sem chodit každý měsíc?</h3>
+                    <p>
+                        <a href="/rss.xml">
+                            <i class="fa fa-rss fa-fw" aria-hidden="true"></i>
+                            Sleduj naše RSS
+                        </a>
+                    </p>
                 </div>
             </div>
 
-            {% block content_wrapper %}
-                {% block content %}{% endblock %}
-            {% endblock %}
+            <br>
         </div>
+
+        {% block content_wrapper %}
+            {% block content %}{% endblock %}
+        {% endblock %}
+
+        <footer>
+            <div class="container">
+                <p>
+                    <strong>Máme něco špatně?</strong> No to je ostuda. Oprav nám to prosím - <a href="https://github
+                    .com/nejenophp/nejenophp.cz/tree/master/source">pošli PR na Githubu</a>.
+                </p>
+                <p>
+                    <strong>Ještě nás neznáš?</strong>
+                    <a href="http://tomasvotruba.cz">Tomáš Votruba</a> a <a href="http://honzacerny.com">Honza Černý</a>
+                        mají vlastní mobilní internetovou vizitku. Tak se na ně mrkni.
+                </p>
+            </div>
+        </footer>
     </body>
 </html>

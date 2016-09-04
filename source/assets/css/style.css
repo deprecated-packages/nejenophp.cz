@@ -8,6 +8,12 @@ body {
     font-size: 1.3em;
 }
 
+.perex {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin: 1em 0;
+}
+
 p {
     line-height: 1.5;
 }

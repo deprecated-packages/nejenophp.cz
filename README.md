@@ -1,4 +1,4 @@
-# NejenOPHP.cz - Sculpin based web
+# NejenOPHP.cz - Symplify\PHP7_Sculpin based web
 
 [![Build Status](https://img.shields.io/travis/nejenophp/nejenophp.cz.svg?style=flat-square)](https://travis-ci.org/nejenophp/nejenophp.cz)
 
@@ -7,13 +7,13 @@
 
 ```sh
 composer update
-vendor/bin/sculpin generate --watch --server --port 8001 # it needs to be run from vendor, to autoload all composer classes 
+vendor/bin/sculpin generate --watch --server 
 ```
 
-And open `http://localhost:8001`.
+And open `http://localhost:8000`.
 
 ## For production?
 
 ```sh
-vendor/bin/sculpin generate --env=prod
+vendor/bin/sculpin generate
 ```

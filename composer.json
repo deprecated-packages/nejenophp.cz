@@ -1,6 +1,6 @@
 {
     "require": {
-        "symplify/php7_sculpin": "~0.1"
+        "symplify/php7_sculpin": "~0.1.2"
     }
 }
 

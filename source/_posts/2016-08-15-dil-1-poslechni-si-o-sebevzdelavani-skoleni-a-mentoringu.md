@@ -9,8 +9,8 @@ perex: > # multi-line string
 podcast:
     title: "#1 - O sebevzdělání, školení, brandovaném obsahu a mentoringu"
     publish_date: "Mon, 15 Aug 2016"
-    mp3_url: "http://temp.chemix.cz/tahnop/tomas-a-honza-nejen-o-php-1.mp3"
-    mp3_size_in_b: "65104529" 
+    mp3_url: "http://cdn.nejenophp.cz/nejen-o-php-1.mp3"
+    mp3_size_in_b: "65104529"
     mp3_duration: "33:39"
     youtube_embed_url: "https://www.youtube.com/embed/1BjVVGmSdCw?list=PLqRXa8pInSUqxMhNhzJsV-1_FZ-YsrSYM"
 ---

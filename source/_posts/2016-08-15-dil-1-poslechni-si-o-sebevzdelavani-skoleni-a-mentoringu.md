@@ -3,7 +3,7 @@ title: "Díl 1. - O sebevzdělávání, školení a mentoringu"
 
 perex: > # multi-line string
     Poslední půlrok u nás vzniká spousta možností, jak se vzdělávat v PHP. A zadarmo.<br>
-    <strong>Kdo je pořádá? Proč na ně nění takový nával? A jak by tomu mohl pomoc mentoring?</strong><br>
+    <strong>Kdo je pořádá? Proč na ně není takový nával? A jak by tomu mohl pomoc mentoring?</strong><br>
     O tom všem se dnes pobavíme.
 
 podcast:

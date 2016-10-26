@@ -7,7 +7,7 @@
 
 ```sh
 composer update
-vendor/bin/sculpin generate --watch --server 
+vendor/bin/sculpin generate --server 
 ```
 
 And open `http://localhost:8000`.

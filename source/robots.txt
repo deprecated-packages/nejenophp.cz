@@ -1,7 +1,3 @@
----
-permalink: none
----
-
 User-agent: *
 
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: {$siteUrl}/sitemap.xml

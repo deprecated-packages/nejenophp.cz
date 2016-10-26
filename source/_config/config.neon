@@ -1,0 +1,4 @@
+siteUrl: http://nejenophp.cz
+
+configuration:
+    postRoute: :year/:month/:day/:title

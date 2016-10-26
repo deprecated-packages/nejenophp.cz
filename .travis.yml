@@ -21,4 +21,5 @@ before_script:
 
 script:
   - vendor/bin/sculpin generate
-  - vendor/bin/sculpin push-to-github nejenophp/nejenophp.cz --token=$GH_TOKEN
+  - vendor/bin/sculpin push-to-github nejenophp/nejenophp.cz --token=${GH_TOKEN}
+

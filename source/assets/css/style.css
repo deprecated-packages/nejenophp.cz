@@ -1,7 +1,10 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    /*font-family: 'Lucida Sans Unicode', sans-serif;*/
-    font-size: 16px;
+    font-size: 17px;
+}
+
+.container {
+    max-width: 950px;
 }
 
 .headline {
@@ -49,7 +52,14 @@ h1 img {
 h2 {
     margin-bottom: .8em;
     font-size: 2em;
+}
+
+h2, h2 a {
     color: #8CD02C;
+}
+
+h2 a:hover {
+    color: #a2da52;
 }
 
 .section {
@@ -110,4 +120,13 @@ footer div {
         font-size: 1.4em;
         line-height: 1.5em;
     }
+}
+
+.btn {
+    font-size: 1em;
+}
+
+#header {
+    margin-top: 2em;
+    margin-bottom: 2em;
 }

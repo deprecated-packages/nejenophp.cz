@@ -1,6 +1,6 @@
 # NejenOPHP.cz - Symplify\PHP7_Sculpin based web
 
-[![Build Status](https://img.shields.io/travis/nejenophp/nejenophp.cz.svg?style=flat-square)](https://travis-ci.org/nejenophp/nejenophp.cz)
+[![Build Status](https://img.shields.io/travis/pehapkari/nejenophp.cz.svg?style=flat-square)](https://travis-ci.org/pehapkari/nejenophp.cz)
 
 
 ## How to run it?

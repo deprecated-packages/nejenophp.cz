@@ -3,11 +3,12 @@ layout: post
 
 title: "Díl 2. - Blíží se hackatony, spojování sil a růst komunity - buď u toho!"
 
-perex: > # multi-line string
+perex: '''
     Na podzim se urodilo pár hackatonů, PHP srazů a po půl roce krystalizuje nápad na spojování a růst komunity.<br>
     <strong>Kam směřuje PHP dál a jak nám s tím můžeš pomoct?</strong><br>
     Poslechni si v dnešním podcastu. 
-    
+'''
+
 podcast:
     title: "#2 - Blíží se hackatony, spojování sil a růst komunity - buď u toho!"
     publish_date: "Mon, 03 Sep 2016"

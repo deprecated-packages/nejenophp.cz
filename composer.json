@@ -1,6 +1,5 @@
 {
     "require": {
-        "symplify/php7_sculpin": "~1.0",
-        "tracy/tracy": "^2.4"
+        "symplify/statie": "~1.2"
     }
 }

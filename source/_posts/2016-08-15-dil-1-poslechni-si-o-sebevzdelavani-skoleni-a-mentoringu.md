@@ -3,10 +3,11 @@ layout: post
 
 title: "Díl 1. - O sebevzdělávání, školení a mentoringu"
 
-perex: > # multi-line string
+perex: '''
     Poslední půlrok u nás vzniká spousta možností, jak se vzdělávat v PHP. A zadarmo.<br>
     <strong>Kdo je pořádá? Proč na ně není takový nával? A jak by tomu mohl pomoc mentoring?</strong><br>
     O tom všem se dnes pobavíme.
+'''
 
 podcast:
     title: "#1 - O sebevzdělání, školení, brandovaném obsahu a mentoringu"

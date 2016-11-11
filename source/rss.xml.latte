@@ -6,7 +6,7 @@
         <feedpress:newsletterId>nejenophp</feedpress:newsletterId>
         <atom:link rel="self" href="{$siteUrl}/rss.xml" />
 
-        <title><![CDATA[Tomáš a Honza nejen o PHP]]></title>
+        <title><![CDATA[Nejen o PHP]]></title>
         <link><![CDATA[{$siteUrl}]]></link>
         <language>cs</language>
         <copyright><![CDATA[© 2016 Tomáš Votruba and Honza Černý]]></copyright>
@@ -19,20 +19,20 @@
             <itunes:name>Tomáš Votruba</itunes:name>
             <itunes:email>info@tomasvotruba.cz</itunes:email>
         </itunes:owner>
-        <itunes:image href="http://nejenophp.cz/assets/images/headline.png"/>
+        <itunes:image href="http://nejenophp.cz/assets/itunes/a1400.png"/>
         <itunes:category text="Technology"/>
         <itunes:explicit>clean</itunes:explicit>
 
         <item n:foreach="$posts as $post">
-            <title>Tomáš a Honza nejen o PHP {$post['podcast']['title']}</title>
+            <title>Nejen o PHP {$post['podcast']['title']}</title>
             <enclosure url="{$post['podcast']['mp3_url']}" length="{$post['podcast']['mp3_size_in_b']}" type="audio/mpeg"/>
             <guid>{$siteUrl}/{$post['relativeUrl']}</guid>
             <pubDate>{$post['podcast']['publish_date']} 11:00:00 +0000</pubDate>
             <description>{$post['perex']}</description>
 
             <itunes:subtitle>{$post['perex']}</itunes:subtitle>
-            <itunes:author><![CDATA[Tomáš a Honza nejen o PHP]]></itunes:author>
-            <itunes:image href="{$siteUrl}/assets/images/headline.png"/>
+            <itunes:author><![CDATA[Tomáš a Honza]]></itunes:author>
+            <itunes:image href="http://nejenophp.cz/assets/itunes/a1400.png" />
             <itunes:duration>{$post['podcast']['mp3_duration']}</itunes:duration>
         </item>
     </channel>

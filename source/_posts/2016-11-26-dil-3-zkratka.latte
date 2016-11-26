@@ -1,0 +1,35 @@
+---
+layout: post
+
+title: "Díl 3. - Zkrátka"
+
+perex: '''
+
+'''
+
+podcast:
+    title: "#3 - Blíží se hackatony, spojování sil a růst komunity - buď u toho!"
+    publish_date: "Sat, 26 Nov 2016"
+    mp3_url: "http://cdn.nejenophp.cz/nejen-o-php-3.mp3"
+    mp3_duration: "17:13"
+    youtube_embed_url: "https://www.youtube.com/watch?v=gCiKoYbTxw4?"
+    
+blocks:
+    -
+        headline: Jaké novinky přinesl poslední měsíc
+        items:
+            - 
+                time: "1:25"
+                title: "1. novinka: neomezený privátní Gitlab. Co na to Github?"
+---
+
+{foreach $blocks as $block}
+
+<h3>{$block['headline']}</h3>
+
+{foreach $block['items'] as $item}
+<li><a href="{$post['podcast']['youtube_embed_url']}&start={$item['time']|timeToSeconds}&autoplay=true" target="video">
+          {$item['time']} - **{$item['title']}**</a></li>
+{/foreach}
+
+{/foreach}

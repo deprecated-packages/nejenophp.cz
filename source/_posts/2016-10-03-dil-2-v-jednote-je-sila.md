@@ -13,7 +13,6 @@ podcast:
     title: "#2 - Blíží se hackatony, spojování sil a růst komunity - buď u toho!"
     publish_date: "Mon, 03 Sep 2016"
     mp3_url: "http://cdn.nejenophp.cz/nejen-o-php-2.mp3"
-    mp3_size_in_b: "67028053"
     mp3_duration: "34:36"
     youtube_embed_url: "https://www.youtube.com/embed/BdWMB6z8rKc?"
 ---

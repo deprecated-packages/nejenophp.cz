@@ -1,35 +1,72 @@
 ---
 layout: post
-
-title: "Díl 3. - Zkrátka"
-
-perex: '''
-
-'''
-
+title: "Díl 3. - Kam kráčí Péhápkaři.cz online a jak se můžeš přidat"
+perex: ""
 podcast:
-    title: "#3 - Blíží se hackatony, spojování sil a růst komunity - buď u toho!"
+    title: "#3 - Kam kráčí Péhápkaři.cz online a jak se můžeš přidat"
     publish_date: "Sat, 26 Nov 2016"
     mp3_url: "http://cdn.nejenophp.cz/nejen-o-php-3.mp3"
     mp3_duration: "17:13"
-    youtube_embed_url: "https://www.youtube.com/watch?v=gCiKoYbTxw4?"
+    youtube_embed_url: "https://www.youtube.com/embed/gCiKoYbTxw4"
     
 blocks:
     -
         headline: Jaké novinky přinesl poslední měsíc
         items:
             - 
+                time: "0:37"
+                title: "Hlasování o logo péhápkaři.cz a doménu PHP7.cz"
+            -
                 time: "1:25"
                 title: "1. novinka: neomezený privátní Gitlab. Co na to Github?"
+            -
+                time: "2:03"
+                title: "Akce na konci listopadu a začátek prosince"
+    -
+        headline: "Téma podcastu: na koho cílí akce, feedback a změna"
+        items:
+            -
+                time: "3:28"
+                title: "Jaká jsou témata PHP akcí a jak je můžeš ovlivnit (diskuse)"
+            -
+                time: "7:44"
+                title: "Vadí ti něco? Neskuhrej a pojď to změnit"
+    -
+        headline: "Kam kráčí Péhápkaři online"
+        items:
+            -
+                time: "8:37"
+                title: "Co najdeš na Slacku? Skoro všechno"
+            -
+                time: "11:05"
+                title: "Přilož ruku ke kódu webu - na Githubu"
+            -
+                time: "12:33"
+                title: "Bude blog! O vás s vámi"
+            -
+                time: "13:31"
+                title: "Testované články - WTF? WOW"
+    -
+        headline: "Závěrem"
+        items:
+            -
+                time: "14:46"
+                title: "Jedeme na SymfonyCon a soutěž"
+            -
+                time: "16:58"
+                title: "Bude host? Ahoj"
 ---
 
 {foreach $blocks as $block}
 
 <h3>{$block['headline']}</h3>
 
-{foreach $block['items'] as $item}
-<li><a href="{$post['podcast']['youtube_embed_url']}&start={$item['time']|timeToSeconds}&autoplay=true" target="video">
-          {$item['time']} - **{$item['title']}**</a></li>
-{/foreach}
+<ul>
+    <li n:foreach="$block['items'] as $item">
+        <a href="{$post['podcast']['youtube_embed_url']}?start={$item['time']|timeToSeconds}&autoplay=true" target="video">
+            {$item['time']} - <strong>{$item['title']}</strong>
+        </a>
+    </li>
+</ul>
 
 {/foreach}

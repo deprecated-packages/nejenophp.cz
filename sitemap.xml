@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://nejenophp.cz</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://nejenophp.cz/2016/11/26/dil-3-zkratka</loc>
+        <lastmod>2016-11-26T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://nejenophp.cz/2016/10/03/dil-2-v-jednote-je-sila</loc>
+        <lastmod>2016-10-03T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://nejenophp.cz/2016/08/15/dil-1-poslechni-si-o-sebevzdelavani-skoleni-a-mentoringu</loc>
+        <lastmod>2016-08-15T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+</urlset>

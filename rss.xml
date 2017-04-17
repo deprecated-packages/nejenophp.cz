@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:feedpress="https://feed.press/xmlns" version="2.0">
+    <channel>
+        <feedpress:locale>cs</feedpress:locale>
+        <feedpress:newsletterId>nejenophp</feedpress:newsletterId>
+        <atom:link rel="self" href="http://nejenophp.cz/rss.xml"></atom:link>
+
+        <title><![CDATA[Nejen o PHP]]></title>
+        <link><![CDATA[http://nejenophp.cz]]></link>
+        <language>cs</language>
+        <copyright><![CDATA[© 2016 Tomáš Votruba and Honza Černý]]></copyright>
+        <description><![CDATA[Povídání o všem možném kolem PHP, komunit, vzdělání a firem u nás.]]></description>
+
+        <itunes:subtitle><![CDATA[Tomáš a Honza si povídají nejen o PHP]]></itunes:subtitle>
+        <itunes:author><![CDATA[Tomáš a Honza]]></itunes:author>
+        <itunes:summary><![CDATA[Povídání o všem možném kolem PHP, komunit, vzdělání a firem u nás.]]></itunes:summary>
+        <itunes:owner>
+            <itunes:name>Tomáš Votruba</itunes:name>
+            <itunes:email>info@tomasvotruba.cz</itunes:email>
+        </itunes:owner>
+        <itunes:image href="http://nejenophp.cz/assets/itunes/a1400.png"></itunes:image>
+        <itunes:category text="Technology"></itunes:category>
+        <itunes:explicit>clean</itunes:explicit>
+
+        <item>
+            <title>Nejen o PHP #3 - Kam kráčí Péhápkaři.cz online a jak se můžeš přidat</title>
+            <guid>http://nejenophp.cz/2016/11/26/dil-3-zkratka</guid>
+            <pubDate>Sat, 26 Nov 2016 11:00:00 +0000</pubDate>
+            <description></description>
+
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:author><![CDATA[Tomáš a Honza]]></itunes:author>
+            <itunes:image href="http://nejenophp.cz/assets/itunes/a1400.png"></itunes:image>
+            <itunes:duration>17:13</itunes:duration>
+        </item>
+        <item>
+            <title>Nejen o PHP #2 - Blíží se hackatony, spojování sil a růst komunity - buď u toho!</title>
+            <guid>http://nejenophp.cz/2016/10/03/dil-2-v-jednote-je-sila</guid>
+            <pubDate>Mon, 03 Sep 2016 11:00:00 +0000</pubDate>
+            <description>Na podzim se urodilo pár hackatonů, PHP srazů a po půl roce krystalizuje nápad na spojování a růst komunity.&lt;br&gt;
+&lt;strong&gt;Kam směřuje PHP dál a jak nám s tím můžeš pomoct?&lt;/strong&gt;&lt;br&gt;
+Poslechni si v dnešním podcastu. </description>
+
+            <itunes:subtitle>Na podzim se urodilo pár hackatonů, PHP srazů a po půl roce krystalizuje nápad na spojování a růst komunity.&lt;br&gt;
+&lt;strong&gt;Kam směřuje PHP dál a jak nám s tím můžeš pomoct?&lt;/strong&gt;&lt;br&gt;
+Poslechni si v dnešním podcastu. </itunes:subtitle>
+            <itunes:author><![CDATA[Tomáš a Honza]]></itunes:author>
+            <itunes:image href="http://nejenophp.cz/assets/itunes/a1400.png"></itunes:image>
+            <itunes:duration>34:36</itunes:duration>
+        </item>
+        <item>
+            <title>Nejen o PHP #1 - O sebevzdělání, školení, brandovaném obsahu a mentoringu</title>
+            <guid>http://nejenophp.cz/2016/08/15/dil-1-poslechni-si-o-sebevzdelavani-skoleni-a-mentoringu</guid>
+            <pubDate>Mon, 15 Aug 2016 11:00:00 +0000</pubDate>
+            <description>Poslední půlrok u nás vzniká spousta možností, jak se vzdělávat v PHP. A zadarmo.&lt;br&gt;
+&lt;strong&gt;Kdo je pořádá? Proč na ně není takový nával? A jak by tomu mohl pomoc mentoring?&lt;/strong&gt;&lt;br&gt;
+O tom všem se dnes pobavíme.</description>
+
+            <itunes:subtitle>Poslední půlrok u nás vzniká spousta možností, jak se vzdělávat v PHP. A zadarmo.&lt;br&gt;
+&lt;strong&gt;Kdo je pořádá? Proč na ně není takový nával? A jak by tomu mohl pomoc mentoring?&lt;/strong&gt;&lt;br&gt;
+O tom všem se dnes pobavíme.</itunes:subtitle>
+            <itunes:author><![CDATA[Tomáš a Honza]]></itunes:author>
+            <itunes:image href="http://nejenophp.cz/assets/itunes/a1400.png"></itunes:image>
+            <itunes:duration>33:39</itunes:duration>
+        </item>
+    </channel>
+</rss>
